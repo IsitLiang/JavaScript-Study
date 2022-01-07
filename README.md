@@ -1,2 +1,2 @@
 # JavaScript-Study
-project made on sschool
+project made on school
