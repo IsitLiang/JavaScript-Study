@@ -1,0 +1,602 @@
+[
+  {
+    "Testo": "In una carreggiata del tipo rappresentato si può sorpassare anche in curva",
+    "Immagine": "https://www.patentati.it/img_sign_400/550.png",
+    "Risposta": true,
+    "Argomento": "Strada"
+  },
+  {
+    "Testo": "La carreggiata del tipo rappresentato è a doppio senso di circolazione",
+    "Immagine": "https://www.patentati.it/img_sign_400/550.png",
+    "Risposta": true,
+    "Argomento": "Strada"
+  },
+  {
+    "Testo": "In una carreggiata extraurbana del tipo rappresentato le corsie interne sono, di norma, riservate al sorpasso",
+    "Immagine": "https://www.patentati.it/img_sign_400/550.png",
+    "Risposta": true,
+    "Argomento": "Strada"
+  },
+  {
+    "Testo": "In una carreggiata extraurbana del tipo rappresentato si può sorpassare indifferentemente sia da destra che da sinistra",
+    "Immagine": "https://www.patentati.it/img_sign_400/550.png",
+    "Risposta": false,
+    "Argomento": "Strada"
+  },
+  {
+    "Testo": "La strada rappresentata è composta da otto corsie",
+    "Immagine": "https://www.patentati.it/img_sign_400/562.png",
+    "Risposta": true,
+    "Argomento": "Strada"
+  },
+  {
+    "Testo": "La strada rappresentata consente, di norma, il sorpasso anche in curva",
+    "Immagine": "https://www.patentati.it/img_sign_400/562.png",
+    "Risposta": true,
+    "Argomento": "Strada"
+  },
+  {
+    "Testo": "Nella strada rappresentata, la corsia centrale è a doppio senso di circolazione",
+    "Immagine": "https://www.patentati.it/img_sign_400/562.png",
+    "Risposta": false,
+    "Argomento": "Strada"
+  },
+  {
+    "Testo": "Nelle carreggiate laterali della strada rappresentata è consentita, di norma, l'inversione di marcia",
+    "Immagine": "https://www.patentati.it/img_sign_400/562.png",
+    "Risposta": false,
+    "Argomento": "Strada"
+  },
+  {
+    "Testo": "La carreggiata può essere suddivisa in corsie",
+    "Immagine": "../img/blank.gif",
+    "Risposta": true,
+    "Argomento": "Strada"
+  },
+  {
+    "Testo": "La carreggiata è destinata soltanto alla circolazione di carri a trazione animale",
+    "Immagine": "../img/blank.gif",
+    "Risposta": false,
+    "Argomento": "Strada"
+  },
+  {
+    "Testo": "La strada può essere suddivisa in carreggiate",
+    "Immagine": "../img/blank.gif",
+    "Risposta": true,
+    "Argomento": "Strada"
+  },
+  {
+    "Testo": "La strada è riservata alla circolazione dei soli autoveicoli e motocicli",
+    "Immagine": "../img/blank.gif",
+    "Risposta": false,
+    "Argomento": "Strada"
+  },
+  {
+    "Testo": "I veicoli a due ruote, con motore termico fino a 50 cm3 di cilindrata e velocità massima di 45 km/h sono ciclomotori",
+    "Immagine": "../img/blank.gif",
+    "Risposta": true,
+    "Argomento": "Mezzo"
+  },
+  {
+    "Testo": "Le biciclette con pedalata assistita, dotate di motore elettrico ausiliario di potenza massima fino a 0,25 kW, sono definite ciclomotori",
+    "Immagine": "../img/blank.gif",
+    "Risposta": false,
+    "Argomento": "Mezzo"
+  },
+  {
+    "Testo": "I ciclomotori, per essere definiti tali, devono essere muniti di cambio manuale",
+    "Immagine": "../img/blank.gif",
+    "Risposta": false,
+    "Argomento": "Mezzo"
+  },
+  {
+    "Testo": "I quadricicli leggeri, ai fini della circolazione, sono assimilati ai ciclomotori",
+    "Immagine": "../img/blank.gif",
+    "Risposta": true,
+    "Argomento": "Mezzo"
+  },
+  {
+    "Testo": "I quadricicli non leggeri, ai fini della circolazione, sono equiparati ai ciclomotori",
+    "Immagine": "../img/blank.gif",
+    "Risposta": false,
+    "Argomento": "Mezzo"
+  },
+  {
+    "Testo": "La guida dei quadricicli non leggeri è consentita già al compimento del quattordicesimo anno di età",
+    "Immagine": "../img/blank.gif",
+    "Risposta": false,
+    "Argomento": "Mezzo"
+  },
+  {
+    "Testo": "L'autovettura non può avere più di nove posti, compreso il conducente",
+    "Immagine": "../img/blank.gif",
+    "Risposta": true,
+    "Argomento": "Mezzo"
+  },
+  {
+    "Testo": "Si definisce autovettura il veicolo blindato e appositamente attrezzato per il trasporto di valori",
+    "Immagine": "../img/blank.gif",
+    "Risposta": false,
+    "Argomento": "Mezzo"
+  },
+  {
+    "Testo": "Il segnale raffigurato preannuncia un tratto di strada deformata",
+    "Immagine": "https://www.patentati.it/img_sign_400/1.png",
+    "Risposta": true,
+    "Argomento": "Cartello"
+  },
+  {
+    "Testo": "Il segnale raffigurato, se a fondo giallo, è usato in presenza di cantieri stradali",
+    "Immagine": "https://www.patentati.it/img_sign_400/1.png",
+    "Risposta": true,
+    "Argomento": "Cartello"
+  },
+  {
+    "Testo": "Il segnale raffigurato preannuncia una doppia curva",
+    "Immagine": "https://www.patentati.it/img_sign_400/1.png",
+    "Risposta": false,
+    "Argomento": "Cartello"
+  },
+  {
+    "Testo": "In presenza del segnale raffigurato è obbligatorio circolare al centro della carreggiata",
+    "Immagine": "https://www.patentati.it/img_sign_400/1.png",
+    "Risposta": false,
+    "Argomento": "Cartello"
+  },
+  {
+    "Testo": "In presenza del segnale raffigurato è necessario fare attenzione al restringimento della carreggiata",
+    "Immagine": "https://www.patentati.it/img_sign_400/1.png",
+    "Risposta": false,
+    "Argomento": "Cartello"
+  },
+  {
+    "Testo": "In presenza del segnale raffigurato è necessario rallentare solo se provengono veicoli dal senso opposto",
+    "Immagine": "https://www.patentati.it/img_sign_400/1.png",
+    "Risposta": false,
+    "Argomento": "Cartello"
+  },
+  {
+    "Testo": "Il segnale raffigurato preannuncia un attraversamento pedonale",
+    "Immagine": "https://www.patentati.it/img_sign_400/15.png",
+    "Risposta": true,
+    "Argomento": "Cartello"
+  },
+  {
+    "Testo": "In presenza del segnale raffigurato i pedoni devono dare la precedenza ai veicoli",
+    "Immagine": "https://www.patentati.it/img_sign_400/15.png",
+    "Risposta": false,
+    "Argomento": "Cartello"
+  },
+  {
+    "Testo": "Il segnale raffigurato preannuncia un attraversamento pedonale",
+    "Immagine": "https://www.patentati.it/img_sign_400/25.png",
+    "Risposta": false,
+    "Argomento": "Cartello"
+  },
+  {
+    "Testo": "Il segnale raffigurato preannuncia luoghi frequentati da fanciulli",
+    "Immagine": "https://www.patentati.it/img_sign_400/25.png",
+    "Risposta": true,
+    "Argomento": "Cartello"
+  },
+  {
+    "Testo": "Il segnale raffigurato preannuncia la presenza di veicoli a trazione animale",
+    "Immagine": "https://www.patentati.it/img_sign_400/26.png",
+    "Risposta": false,
+    "Argomento": "Cartello"
+  },
+  {
+    "Testo": "In presenza del segnale raffigurato è obbligatorio usare ripetutamente l'avvisatore acustico per allontanare gli animali",
+    "Immagine": "https://www.patentati.it/img_sign_400/26.png",
+    "Risposta": false,
+    "Argomento": "Cartello"
+  },
+  {
+    "Testo": "Il segnale raffigurato autorizza la marcia per file parallele",
+    "Immagine": "https://www.patentati.it/img_sign_400/21.png",
+    "Risposta": false,
+    "Argomento": "Cartello"
+  },
+  {
+    "Testo": "Il segnale raffigurato può trovarsi anche su strada a doppio senso di circolazione",
+    "Immagine": "https://www.patentati.it/img_sign_400/21.png",
+    "Risposta": false,
+    "Argomento": "Cartello"
+  },
+  {
+    "Testo": "Il segnale raffigurato preannuncia una pista per la prova di tenuta degli pneumatici",
+    "Immagine": "https://www.patentati.it/img_sign_400/24.png",
+    "Risposta": false,
+    "Argomento": "Cartello"
+  },
+  {
+    "Testo": "In presenza del segnale raffigurato è necessario moderare la velocità ed evitare brusche sterzate in caso di pioggia",
+    "Immagine": "https://www.patentati.it/img_sign_400/24.png",
+    "Risposta": true,
+    "Argomento": "Cartello"
+  },
+  {
+    "Testo": "l segnale raffigurato preannuncia che bisogna usare prudenza perché è vicino un pericolo",
+    "Immagine": "https://www.patentati.it/img_sign_400/39.png",
+    "Risposta": true,
+    "Argomento": "Cartello"
+  },
+  {
+    "Testo": "Il segnale raffigurato preannuncia un pericolo diverso da quelli per cui sono previsti specifici segnali",
+    "Immagine": "https://www.patentati.it/img_sign_400/39.png",
+    "Risposta": true,
+    "Argomento": "Cartello"
+  },
+  {
+    "Testo": "Il segnale raffigurato preannuncia un tratto di strada in cattivo stato o con pavimentazione irregolare",
+    "Immagine": "https://www.patentati.it/img_sign_400/39.png",
+    "Risposta": false,
+    "Argomento": "Cartello"
+  },
+  {
+    "Testo": "Il segnale raffigurato preannuncia una salita ripida",
+    "Immagine": "https://www.patentati.it/img_sign_400/39.png",
+    "Risposta": false,
+    "Argomento": "Cartello"
+  },
+  {
+    "Testo": "Il segnale raffigurato vieta la circolazione ai quadricicli a motore",
+    "Immagine": "https://www.patentati.it/img_sign_400/54.png",
+    "Risposta": true,
+    "Argomento": "Cartello"
+  },
+  {
+    "Testo": "Il segnale raffigurato vieta il transito unicamente ai veicoli a motore",
+    "Immagine": "https://www.patentati.it/img_sign_400/54.png",
+    "Risposta": false,
+    "Argomento": "Cartello"
+  },
+  {
+    "Testo": "Il segnale raffigurato vieta il transito a tutti i veicoli a due ruote",
+    "Immagine": "https://www.patentati.it/img_sign_400/64.png",
+    "Risposta": false,
+    "Argomento": "Cartello"
+  },
+  {
+    "Testo": "Il segnale raffigurato vieta il transito ai quadricicli a motore",
+    "Immagine": "https://www.patentati.it/img_sign_400/64.png",
+    "Risposta": false,
+    "Argomento": "Cartello"
+  },
+  {
+    "Testo": "Il segnale raffigurato consente il transito alle biciclette",
+    "Immagine": "https://www.patentati.it/img_sign_400/62.png",
+    "Risposta": true,
+    "Argomento": "Cartello"
+  },
+  {
+    "Testo": "Il segnale raffigurato indica un'area urbana riservata a parco giochi e divertimenti",
+    "Immagine": "https://www.patentati.it/img_sign_400/62.png",
+    "Risposta": false,
+    "Argomento": "Cartello"
+  },
+  {
+    "Testo": "In presenza del segnale raffigurato gli autoveicoli che trasportano esplosivi possono effettuare manovre di sorpasso",
+    "Immagine": "https://www.patentati.it/img_sign_400/73.png",
+    "Risposta": false,
+    "Argomento": "Cartello"
+  },
+  {
+    "Testo": "In presenza del segnale raffigurato è consentito il transito di autovetture alimentate a metano",
+    "Immagine": "https://www.patentati.it/img_sign_400/73.png",
+    "Risposta": true,
+    "Argomento": "Cartello"
+  },
+  {
+    "Testo": "Il segnale raffigurato vieta il transito ai veicoli che trasportano carni macellate",
+    "Immagine": "https://www.patentati.it/img_sign_400/72.png",
+    "Risposta": false,
+    "Argomento": "Cartello"
+  },
+  {
+    "Testo": "Il segnale raffigurato vieta il transito ai veicoli con furgone frigorifero",
+    "Immagine": "https://www.patentati.it/img_sign_400/72.png",
+    "Risposta": false,
+    "Argomento": "Cartello"
+  },
+  {
+    "Testo": "In presenza del segnale raffigurato è consentito il transito agli autocarri",
+    "Immagine": "https://www.patentati.it/img_sign_400/67.png",
+    "Risposta": true,
+    "Argomento": "Cartello"
+  },
+  {
+    "Testo": "Il segnale raffigurato preannuncia un'area di sosta per autobus turistici",
+    "Immagine": "https://www.patentati.it/img_sign_400/67.png",
+    "Risposta": false,
+    "Argomento": "Cartello"
+  },
+  {
+    "Testo": "Il divieto imposto dal segnale raffigurato deve essere rispettato anche nelle ore notturne",
+    "Immagine": "https://www.patentati.it/img_sign_400/55.png",
+    "Risposta": true,
+    "Argomento": "Cartello"
+  },
+  {
+    "Testo": "I taxi devono rispettare il divieto imposto dal segnale rappresentato",
+    "Immagine": "https://www.patentati.it/img_sign_400/55.png",
+    "Risposta": true,
+    "Argomento": "Cartello"
+  },
+  {
+    "Testo": "Il segnale raffigurato vieta di entrare in una strada accessibile invece dall'altra parte",
+    "Immagine": "https://www.patentati.it/img_sign_400/55.png",
+    "Risposta": true,
+    "Argomento": "Cartello"
+  },
+  {
+    "Testo": "Il segnale raffigurato è un SENSO VIETATO",
+    "Immagine": "https://www.patentati.it/img_sign_400/55.png",
+    "Risposta": true,
+    "Argomento": "Cartello"
+  },
+  {
+    "Testo": "Il segnale raffigurato consente l'accesso ai ciclomotori",
+    "Immagine": "https://www.patentati.it/img_sign_400/55.png",
+    "Risposta": false,
+    "Argomento": "Cartello"
+  },
+  {
+    "Testo": "Il segnale raffigurato è posto su una carreggiata a doppio senso di circolazione",
+    "Immagine": "https://www.patentati.it/img_sign_400/55.png",
+    "Risposta": false,
+    "Argomento": "Cartello"
+  },
+  {
+    "Testo": "Il segnale raffigurato vieta il sorpasso",
+    "Immagine": "https://www.patentati.it/img_sign_400/55.png",
+    "Risposta": false,
+    "Argomento": "Cartello"
+  },
+  {
+    "Testo": "Il divieto imposto dal segnale raffigurato deve essere rispettato, nei centri abitati, dalle ore 8.00 alle ore 20.00",
+    "Immagine": "https://www.patentati.it/img_sign_400/55.png",
+    "Risposta": false,
+    "Argomento": "Cartello"
+  },
+  {
+    "Testo": "Il segnale raffigurato vieta la sosta, ma non la fermata",
+    "Immagine": "https://www.patentati.it/img_sign_400/55.png",
+    "Risposta": false,
+    "Argomento": "Cartello"
+  },
+  {
+    "Testo": "Il segnale raffigurato indica un attraversamento pedonale",
+    "Immagine": "https://www.patentati.it/img_sign_400/108.png",
+    "Risposta": false,
+    "Argomento": "Cartello"
+  },
+  {
+    "Testo": "Il segnale raffigurato consente il transito anche ai veicoli, ma solo con particolare prudenza ed attenzione ai pedoni",
+    "Immagine": "https://www.patentati.it/img_sign_400/108.png",
+    "Risposta": false,
+    "Argomento": "Cartello"
+  },
+  {
+    "Testo": "In presenza del segnale raffigurato è consentito marciare alla velocità di 40 km/h",
+    "Immagine": "https://www.patentati.it/img_sign_400/105.png",
+    "Risposta": true,
+    "Argomento": "Cartello"
+  },
+  {
+    "Testo": "Il segnale raffigurato obbliga i veicoli a mantenere almeno la velocità indicata",
+    "Immagine": "https://www.patentati.it/img_sign_400/105.png",
+    "Risposta": true,
+    "Argomento": "Cartello"
+  },
+  {
+    "Testo": "Il segnale raffigurato obbliga a mantenere una velocità non inferiore a 30 km/h",
+    "Immagine": "https://www.patentati.it/img_sign_400/105.png",
+    "Risposta": true,
+    "Argomento": "Cartello"
+  },
+  {
+    "Testo": "Il segnale raffigurato indica la fine del limite massimo di velocità",
+    "Immagine": "https://www.patentati.it/img_sign_400/105.png",
+    "Risposta": false,
+    "Argomento": "Cartello"
+  },
+  {
+    "Testo": "Il segnale raffigurato è un segnale di indicazione",
+    "Immagine": "https://www.patentati.it/img_sign_400/105.png",
+    "Risposta": false,
+    "Argomento": "Cartello"
+  },
+  {
+    "Testo": "In presenza dell'isola di traffico rappresentata in figura il veicolo B deve svoltare a destra",
+    "Immagine": "https://www.patentati.it/img_sign_400/595.png",
+    "Risposta": true,
+    "Argomento": "Segnaletica"
+  },
+  {
+    "Testo": "L'isola di traffico in figura indica un tratto di strada vietato al transito ed alla sosta dei veicoli",
+    "Immagine": "https://www.patentati.it/img_sign_400/595.png",
+    "Risposta": true,
+    "Argomento": "Segnaletica"
+  },
+  {
+    "Testo": "L'isola di traffico in figura indica una parte della carreggiata sulla quale si può sostare solo per 30 minuti",
+    "Immagine": "https://www.patentati.it/img_sign_400/595.png",
+    "Risposta": false,
+    "Argomento": "Segnaletica"
+  },
+  {
+    "Testo": "In presenza delle strisce di guida in figura il veicolo C può andare diritto",
+    "Immagine": "https://www.patentati.it/img_sign_400/596.png",
+    "Risposta": true,
+    "Argomento": "Segnaletica"
+  },
+  {
+    "Testo": "In presenza delle strisce di guida in figura il veicolo B deve svoltare a destra",
+    "Immagine": "https://www.patentati.it/img_sign_400/596.png",
+    "Risposta": false,
+    "Argomento": "Segnaletica"
+  },
+  {
+    "Testo": "In una strada a doppio senso di circolazione con la segnaletica indicata in figura si può effettuare un sorpasso anche superando la striscia di mezzo",
+    "Immagine": "https://www.patentati.it/img_sign_400/502.png",
+    "Risposta": true,
+    "Argomento": "Segnaletica"
+  },
+  {
+    "Testo": "In una strada a doppio senso di circolazione con la segnaletica indicata in figura per svoltare a sinistra bisogna spostarsi verso il centro della carreggiata",
+    "Immagine": "https://www.patentati.it/img_sign_400/502.png",
+    "Risposta": true,
+    "Argomento": "Segnaletica"
+  },
+  {
+    "Testo": "Le corsie A, B e C rappresentate in figura non consentono al conducente di proseguire diritto",
+    "Immagine": "https://www.patentati.it/img_sign_400/564.png",
+    "Risposta": true,
+    "Argomento": "Segnaletica"
+  },
+  {
+    "Testo": "Con la segnaletica indicata in figura è consentito al conducente cambiare corsia dove le strisce di corsia sono ancora discontinue(tratteggiate)",
+    "Immagine": "https://www.patentati.it/img_sign_400/564.png",
+    "Risposta": true,
+    "Argomento": "Segnaletica"
+  },
+  {
+    "Testo": "Le corsie A, B e C rappresentate in figura consentono al conducente di andare in tutte le direzioni",
+    "Immagine": "https://www.patentati.it/img_sign_400/564.png",
+    "Risposta": false,
+    "Argomento": "Segnaletica"
+  },
+  {
+    "Testo": "La corsia B rappresentata in figura consente al conducente di svoltare e di proseguire diritto",
+    "Immagine": "https://www.patentati.it/img_sign_400/564.png",
+    "Risposta": false,
+    "Argomento": "Segnaletica"
+  },
+  {
+    "Testo": "Il segnale raffigurato comporta di dare la precedenza ai veicoli che circolano sulla strada che si incrocia",
+    "Immagine": "https://www.patentati.it/img_sign_400/40.png",
+    "Risposta": true,
+    "Argomento": "Cartello"
+  },
+  {
+    "Testo": "Il segnale raffigurato è un segnale di precedenza",
+    "Immagine": "https://www.patentati.it/img_sign_400/40.png",
+    "Risposta": true,
+    "Argomento": "Cartello"
+  },
+  {
+    "Testo": "Il segnale raffigurato preannuncia di moderare particolarmente la velocità e all'occorrenza fermarsi",
+    "Immagine": "https://www.patentati.it/img_sign_400/40.png",
+    "Risposta": true,
+    "Argomento": "Cartello"
+  },
+  {
+    "Testo": "Il segnale raffigurato è impiegato su strade che godono del diritto di precedenza",
+    "Immagine": "https://www.patentati.it/img_sign_400/40.png",
+    "Risposta": false,
+    "Argomento": "Cartello"
+  },
+  {
+    "Testo": "In presenza del segnale raffigurato bisogna usare prudenza perché ci si sta avvicinando ad un incrocio",
+    "Immagine": "https://www.patentati.it/img_sign_400/48.png",
+    "Risposta": true,
+    "Argomento": "Cartello"
+  },
+  {
+    "Testo": "Il segnale raffigurato preannuncia che si incrocia a destra una strada di minore importanza",
+    "Immagine": "https://www.patentati.it/img_sign_400/48.png",
+    "Risposta": true,
+    "Argomento": "Cartello"
+  },
+  {
+    "Testo": "Il segnale raffigurato preannuncia, sulla destra, una strada senza uscita",
+    "Immagine": "https://www.patentati.it/img_sign_400/48.png",
+    "Risposta": false,
+    "Argomento": "Cartello"
+  },
+  {
+    "Testo": "Il segnale raffigurato è posto sulle corsie di accelerazione delle autostrade",
+    "Immagine": "https://www.patentati.it/img_sign_400/48.png",
+    "Risposta": false,
+    "Argomento": "Cartello"
+  },
+  {
+    "Testo": "Il segnale raffigurato preannuncia un incrocio in cui il conducente ha l’obbligo di fermarsi e dare precedenza ai veicoli provenienti da destra",
+    "Immagine": "https://www.patentati.it/img_sign_400/48.png",
+    "Risposta": false,
+    "Argomento": "Cartello"
+  },
+  {
+    "Testo": "Il segnale raffigurato indica una piazzola di sosta a destra",
+    "Immagine": "https://www.patentati.it/img_sign_400/48.png",
+    "Risposta": false,
+    "Argomento": "Cartello"
+  },
+  {
+    "Testo": "Le strisce di guida in figura, di norma, si trovano dove la svolta a sinistra si effettua lasciando alla nostra destra il centro dell'incrocio",
+    "Immagine": "https://www.patentati.it/img_sign_400/543.png",
+    "Risposta": true,
+    "Argomento": "Segnaletica"
+  },
+  {
+    "Testo": "Le strisce di guida in figura, sono strisce curve discontinue (tratteggiate) di colore bianco",
+    "Immagine": "https://www.patentati.it/img_sign_400/543.png",
+    "Risposta": true,
+    "Argomento": "Segnaletica"
+  },
+  {
+    "Testo": "Le strisce di guida in figura debbono essere lasciate sempre alla destra del veicolo quando si svolta a destra",
+    "Immagine": "https://www.patentati.it/img_sign_400/543.png",
+    "Risposta": false,
+    "Argomento": "Segnaletica"
+  },
+  {
+    "Testo": "Le strisce di guida in figura non possono essere superate dai veicoli che proseguono diritto",
+    "Immagine": "https://www.patentati.it/img_sign_400/543.png",
+    "Risposta": false,
+    "Argomento": "Segnaletica"
+  },
+  {
+    "Testo": "La striscia a zig zag della segnaletica in figura serve agli autobus per facilitare la manovra di accostamento e per ripartire",
+    "Immagine": "https://www.patentati.it/img_sign_400/546.png",
+    "Risposta": true,
+    "Argomento": "Segnaletica"
+  },
+  {
+    "Testo": "La segnaletica in figura indica lo spazio per la fermata di autobus e filobus in servizio pubblico di linea",
+    "Immagine": "https://www.patentati.it/img_sign_400/546.png",
+    "Risposta": true,
+    "Argomento": "Segnaletica"
+  },
+  {
+    "Testo": "La segnaletica in figura vieta agli autocarri di circolare all'interno dell'area segnata",
+    "Immagine": "https://www.patentati.it/img_sign_400/546.png",
+    "Risposta": false,
+    "Argomento": "Segnaletica"
+  },
+  {
+    "Testo": "Un attraversamento pedonale può essere preceduto sulla destra da una striscia gialla a zig zag, come nella figura seguente",
+    "Immagine": "https://www.patentati.it/img_sign_400/545.png",
+    "Risposta": true,
+    "Argomento": "Segnaletica"
+  },
+  {
+    "Testo": "La segnaletica in figura è un'isola di rifugio per pedoni e ciclisti",
+    "Immagine": "https://www.patentati.it/img_sign_400/517.png",
+    "Risposta": false,
+    "Argomento": "Segnaletica"
+  },
+  {
+    "Testo": "La segnaletica in figura indica un attraversamento ciclabile",
+    "Immagine": "https://www.patentati.it/img_sign_400/517.png",
+    "Risposta": false,
+    "Argomento": "Segnaletica"
+  },
+  {
+    "Testo": "La segnaletica in figura indica un'area riservata ai soli pedoni disabili",
+    "Immagine": "https://www.patentati.it/img_sign_400/517.png",
+    "Risposta": false,
+    "Argomento": "Segnaletica"
+  }
+]

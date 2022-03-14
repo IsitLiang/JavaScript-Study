@@ -1,0 +1,150 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+    color: var(--fontsecondcolor);
+}
+
+:root{
+    --colormain:#fbd304;
+    --fontcolor:#FFFFFF;
+    --colorsecond:#0b0904;
+    --fontsecondcolor:var(--colorsecond);
+    --colorterzo:#dcb417;
+}
+body{
+	background-color: var(--colormain);
+}
+header h1{
+	padding-top: 0px;
+    padding: 15px;
+    text-align: center;
+    font-size: 50px
+}
+
+main{
+	width: 98vw;
+	height: 85vh;
+	overflow: hidden;
+}
+.menu-contain{
+	width: 100%;
+	height: 100%;
+	list-style: none;
+	display: flex;
+}
+.menu-contain > li{
+	width: 10%;
+	height: 100%;
+	display: flex;
+	transition: all 1s;
+}
+.menu-contain > li:nth-child(1){ background-color: var(--colormain); }
+.menu-contain > li:nth-child(2){ background-color: var(--colormain); }
+.menu-contain > li:nth-child(3){ background-color: var(--colormain); }
+
+.menu-contain > li.active{
+	width: 80%;
+	transition: all 1s;
+}
+
+.menu-contain > li.active > .left-box > .title{
+	width: auto;
+}
+
+.left-box, .right-box{
+	flex: 1;
+}
+.right-box > img{
+	width: 80%;
+}
+
+.left-box{
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+.left-box > .title{
+	width: 1em;
+	font-size: 2em;
+	font-weight: bold;
+}
+.left-box > .desc{
+	width: 80%;
+	margin: 3em 0;
+	font-size: 0.9em;
+	text-align: center;
+}
+.left-box > button{
+	width: 10em;
+	height: 3em;
+	border-radius: 2em;
+	border: none;
+	outline: none;
+	cursor: pointer;
+}
+
+
+
+.area2 > .title,
+.area2 > .desc{
+	color: var(--colorsecond);
+}
+
+.area2 > button{
+	background-color: var(--colorsecond);
+	color: var(--fontcolor);
+	transition: all 0.5s;
+}
+.area2 > button:hover{
+	background-color: #3c3847;
+	color: var(--fontcolor);
+	transition: all 0.5s;
+}
+
+.area > .title,
+.area > .desc{
+	color: var(--colorsecond);
+}
+
+.area > button{
+	background-color: var(--colorsecond);
+	color: var(--fontcolor);
+	transition: all 0.5s;
+}
+.area > button:hover{
+	background-color: var(--colorsecond);
+	color: var(--fontcolor);
+	transition: all 0.5s;
+}
+
+.area3 > .title,
+.area3 > .desc{
+	color: var(--colorsecond);
+}
+
+.area3 > button{
+	background-color: var(--colorsecond);
+	color: #ddd;
+	transition: all 0.5s;
+}
+.area3 > button:hover{
+	background-color: #70bb9b;
+	color: #fff;
+	transition: all 0.5s;
+}
+nav ul li a {
+	color: var(--fontcolor);
+	text-decoration: none;
+}
+nav ul{
+    display: flex;
+    justify-content: space-around;
+    padding: 14px;
+    list-style: none;
+    align-items: center;
+}
+nav {
+    background-color:var(--colorsecond) ;    
+};

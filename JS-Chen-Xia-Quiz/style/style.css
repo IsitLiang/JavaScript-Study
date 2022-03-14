@@ -1,0 +1,208 @@
+*{
+    padding: 0;
+    margin: 0;
+    color: var(--fontsecondcolor);
+    box-sizing: border-box;
+}
+
+:root{
+    --colormain:#fbd304;
+    --fontcolor:#FFFFFF;
+    --colorsecond:#0b0904;
+    --fontsecondcolor:var(--colorsecond);
+    --colorterzo:#dcb417;
+}
+
+::-webkit-scrollbar {
+    width: 5px;
+  }
+  
+  ::-webkit-scrollbar-track {
+    background: #fbd304; 
+  }
+  
+  ::-webkit-scrollbar-thumb {
+    background: #0b0904; 
+  }
+  
+  ::-webkit-scrollbar-thumb:hover {
+    background: #555; 
+  }
+
+
+body{
+    display: grid; 
+    grid-template-columns: 1fr 1fr 1fr; 
+    grid-template-rows: auto auto auto auto; 
+    gap: 0px 0px; 
+    background-color: var(--colormain);
+    grid-template-areas: 
+      "Header Header Header"
+      "NavBar NavBar NavBar"
+      "Main Main Main"
+      "Footter Footter Footter"; 
+  }
+
+
+  header { grid-area: Header; }
+  Nav { grid-area: NavBar; }
+  Main { grid-area: Main; }
+  footer { grid-area: Footter; }
+button{
+    cursor: pointer;
+}
+
+.mainmain {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    gap: 5%;
+    display: flex;
+    justify-content: center;
+    height: 83.5vh;
+
+}
+.gif{
+    width: 500px;
+}
+.btns{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+.big-box{
+    display: flex;
+    flex-direction: column;
+    justify-items: center;
+    
+}
+
+.box {  
+    display: grid;
+    grid-template-columns: 1.5fr 1.5fr;
+    grid-template-rows: 0.4fr 1.6fr 0.9fr 1.1fr;
+    gap: 0px 0px;
+    height: 40vh;
+    background-color: var(--colorterzo);
+    border: 1px solid;
+    grid-auto-flow: row;
+    justify-items: center;
+    align-items: center;
+    grid-template-areas:
+      "testo testo"
+      "img img"
+      "img img"
+      "risposte risposte";
+  }
+  
+    .text { grid-area: testo; }
+  
+    .box img { grid-area: img; }
+  
+    .risposte  { grid-area: risposte; }
+
+.risposte{
+    display: flex;
+    font-size: 30px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+.text{
+    font-size: 20px;
+}
+
+.risposte button{
+    width: 400px;
+    height: 50px;
+    border-radius: 14px;    
+}
+
+.losebox{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 5%;
+}
+.losebox button{
+    width: 400px;
+    height: 50px;
+    border-radius: 14px;
+}
+.a-button{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    padding:10px;
+    border-radius: 10px;
+}
+.ptex{
+    text-align: center;
+}
+.a-button button{
+    width: 10%;
+    height: 40%;
+    font-size: larger;    
+    background-color: var(--colorterzo);
+    color: var(--fontcolor);
+
+}
+.box img{
+    height: 200px;
+    width: 250px;
+}
+
+h2{
+    text-align: center;
+}
+
+a{
+    display: flex;
+    flex-direction: column;
+    text-decoration: none;
+    color: var(--fontcolor);
+}
+
+.quiz{
+    width: 200px;
+    height: 200px;
+    border: 5px solid;
+    border-radius: 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10%;
+    
+}
+a:hover .quiz{
+    background-color: var(--colorterzo);
+    color: var(--fontcolor);
+    
+}
+a:hover div h2{
+    color: var(--fontcolor);
+}
+.quiz img{
+    width: 80px;
+    border-radius: 50px;
+}
+header h1{
+    padding-top: 0px;
+    padding: 15px;
+    text-align: center;
+    font-size: 50px
+    
+}
+nav ul{
+    display: flex;
+    justify-content: space-around;
+    padding: 14px;
+    list-style: none;
+    align-items: center;
+}
+nav {
+    background-color:var(--colorsecond) ;    
+};
+
