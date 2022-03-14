@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            background-color: cadetblue;
+        }
+        *{
+            margin: 0;
+        }
+        .Con{
+            padding-top: 10%;
+            display: block;
+            display: flex;
+            flex-direction: column;
+
+        }
+        
+        
+        .None{
+            display: none;
+        }
+
+        #myProgress {
+            width: 100%;
+            background-color: #ddd;
+            }
+
+        #myBar {
+            width: 100%;
+            height: 30px;
+            background-color:cyan;
+        }
+        
+        .Giusto , .Sbagliato{
+            display: block;
+            width: 100%;
+            height: 100%;
+            margin: 0;
+            position: absolute;
+            z-index: 10;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        .insidediv{
+            border-radius: 10%;
+            background-color: lightblue;
+            width: 30%;
+            height: 70%;
+            
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            
+        }
+        button{
+            background-color: yellow;
+            width: 300px;
+            height: 50px;    
+        }
+        input[type=text] {
+            width: 100%;
+            padding: 12px 20px;
+            margin: 8px 0;
+            display: inline-block;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+            box-sizing: border-box;
+            
+}
+    </style>
+</head>
+<body>   
+    <div class="None" id="Sbagliato">
+        <div class="insidediv">
+        <h1>Hai perso </h1>
+        <h2 id="level">Livello:</h2>
+             <button id="ricomincia">
+            Ricomincia
+        </button>
+        </div>
+    </div>
+
+    <div class="None" id="Giusto">
+        <div class="insidediv">
+            <h1>Esatto</h1>
+            <button id="continue">
+                 Continua
+            </button>
+        </div>
+       
+    </div>
+    <div class="Con" id="start">
+        <h1>Number Memory</h1>
+        <button id="btn">
+            Start
+        </button>
+    </div>
+
+    <div class="None" id="num">
+        <h1>Comincia</h1>
+        <h1 class="None" id="number" ></h1>
+        <div id="myProgress">
+            <div id="myBar"></div>
+          </div>
+
+        <button id="play">
+            Inizia
+        </button>
+    </div>
+    <div class="None" id="text">
+        <h1>Insert The Number</h1>
+        <input type="text" name="" id="Text" class="castesto">
+        <button id="check">Invia</button>
+    </div>
+
+
+
+
+    <script>
+        let level=1;
+    
+        window.addEventListener('DOMContentLoaded', start, false);
+        function start(){
+
+            document.getElementById('btn').addEventListener("click",startgame)
+            document.getElementById('play').addEventListener('click',play)
+            document.getElementById('check').addEventListener('click',check)
+            document.getElementById('continue').addEventListener('click',restart)
+            document.getElementById("ricomincia").addEventListener("click",fine)
+
+        }
+        function fine(){
+            window.location.reload()
+        }
+        function startgame(){
+            document.getElementById("start").className="None";
+            document.getElementById("num").className="Con";
+            document.getElementById("number").innerText=""
+            for (let index = 0; index < level; index++) {
+                
+                document.getElementById("number").innerText+=parseInt(Math.random()*10)
+            }
+            
+        }
+
+        function starttype(){
+            document.getElementById('num').className='None';
+            document.getElementById('text').className='Con'
+        }
+
+        function play(){
+            
+            setTimeout(starttype,5000);
+            move()
+            document.getElementById("number").className="Con";
+           
+
+        }
+        function restart(){
+            
+            document.getElementById("Giusto").className="None";
+            document.getElementById("text").className="None"
+            document.getElementById("number").className="None"
+            document.getElementById("Text").value=""
+            document.getElementById('myBar').style.width="100%"
+            startgame()
+        }
+        function check(){
+            if (document.getElementById('Text').value === document.getElementById("number").innerText ){
+                document.getElementById("Giusto").className="Giusto";
+                level++;
+
+            }
+            else{
+                document.getElementById("Sbagliato").className="Sbagliato";
+                document.getElementById("level").innerText+=level
+            }
+        }
+
+        function move() {
+     
+            
+            var i =0;
+            if (i == 0) {
+                i = 1;
+                var elem = document.getElementById("myBar");
+                var width = 100;
+                var id = setInterval(frame, 50);
+                function frame() {
+                if (width <=0) {
+                    clearInterval(id);
+                    i = 0;
+                } else {
+                    width--;
+                    elem.style.width = width + "%";
+                }
+                }
+            }
+            }
+    </script>
+</body>
+
+</html>
