@@ -1,0 +1,84 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+h1,p{
+    color: black;
+}
+h1{
+    font-size: large;
+}
+body{
+    background-color: black;
+}
+p{
+    font-size: small;
+}
+header{
+    background-color: #EDEDED;
+    text-align: center;
+}
+main{
+    padding-top:2% ;
+}
+button,input[type="text"],input[type="date"]{
+    width: 30%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid;
+    border-radius: 100px;
+    box-sizing: border-box;
+
+}
+.like img {
+    max-width: 3%;
+}
+nav{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-content: space-around;
+    justify-content: center;
+    align-items: stretch;
+}
+nav button{
+    margin-left: 10%;
+    margin-right: 10%;
+}
+.like{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+}
+.Block{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+img{
+    max-width: 40em;
+    max-height: 20em;
+    
+    border-radius: 10%;
+}
+
+.see{
+    display: block;
+}
+.first{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+   background-color:#EDEDED;
+   border-radius: 10%;
+}
+.second img {
+    width: 10em;
+    height: 5em;
+}
+.none{
+    display: none;
+}
